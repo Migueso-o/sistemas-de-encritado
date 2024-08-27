@@ -1,0 +1,84 @@
+h1 {
+    color: var(--color-secundario);
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(219, 61, 61);
+    -webkit-box-shadow: 0px 5px 30px 4px rgba(233, 236, 243, 0.66);
+}
+
+h3 {
+    color: var(--color-secundario);
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(214, 70, 70);
+    -webkit-box-shadow: 0px 5px 30px 4px rgba(233, 236, 243, 0.66);
+}
+
+
+body {
+    font-family: Calibri, sans-serif;
+    background: linear-gradient(to right, #6f68ad, #994e39);
+    color: #080808;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(74, 65, 97);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+textarea {
+    font-family: Calibri, sans-serif;
+    width: 100%;
+    padding: 1px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 4px 10px white;
+    -webkit-box-shadow: 0px 5px 30px 4px rgba(233, 236, 243, 0.66);
+}
+
+button {
+    font-family: Calibri, sans-serif;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    font-family: Calibri, sans-serif;
+    background-color: #ff3b3b;
+    transform: scale(1.05);
+}
+
+button:active {
+    font-family: Calibri, sans-serif;
+    background-color: #e62e2e;
+    transform: scale(0.98);
+}
+
+.output {
+    font-family: Calibri, sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
